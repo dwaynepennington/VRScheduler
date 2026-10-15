@@ -14,20 +14,21 @@ Open it at https://dwaynepennington.github.io/VRScheduler/
 - Work the grid: sort by any column, choose columns, roll up by WBS, zoom from 50 to 200 %, and keep the timescale in view while scrolling.
 - Export to P6 XER, Microsoft Project XML or CSV.
 
-## VRPlanner and VRTAR
+## VRPlanner, VRTAR and VRCMMS
 
-Two tools come with VRScheduler. The bar under the top bar switches between the three.
+Three tools come with VRScheduler. The bar under the top bar switches between the four.
 
 - **VRPlanner** — capital work planning. Step out each work item from a module and get its work steps, crew sizes, craft hours, equipment and materials; set the logic between work items on the project's working calendar; see the manpower and equipment loading. Send to Schedule Editor adds the plan to the schedule open in VRScheduler, under the WBS node you pick, or opens it as a new schedule. Load files: P6 XER, MPX, Excel and CSV. Open it at https://dwaynepennington.github.io/VRScheduler/planner/index.html
-- **VRTAR** — turnaround estimating. Answer a short wizard for each scope item and get the tasks, crew hours, equipment, logic and material; the worklist rolls into an event fragnet, a manpower histogram and a material take-off, with Excel, P6 XER, MPX and SAP PM exports. Open it at https://dwaynepennington.github.io/VRScheduler/tar/index.html
+- **VRTAR** — turnaround estimating. Answer a short wizard for each scope item and get the tasks, crew hours, equipment, logic and material; the worklist rolls into an event fragnet, a manpower histogram and a material take-off, with Excel, P6 XER, MPX and SAP PM exports. The Load tab sends the event to the Schedule Editor, one activity per scope item. Open it at https://dwaynepennington.github.io/VRScheduler/tar/index.html
+- **VRCMMS** — maintenance management. Asset register with QR labels, work requests and work orders, preventive maintenance by time or meter, job plans, spares and reliability. Planning & backlog sends the open work orders to the Schedule Editor, or into a VRTAR turnaround event; a VRTAR scope item opens its asset or work order in VRCMMS. Start your own site on the Dashboard begins with empty registers. Open it at https://dwaynepennington.github.io/VRScheduler/cmms/index.html
 
-Both keep their records in this browser. File > Save file downloads a copy, File > Open file puts one back, and File > Start over reopens the synthetic sample.
+All three keep their records in this browser. File > Save file downloads a copy, File > Open file puts one back, and File > Start over reopens the synthetic sample.
 
 ## Your data
 
 Files are read in this browser only; nothing is uploaded. A loaded schedule and the editor's plan are kept in this browser's storage so they reopen after a reload. "Start over" removes them and reopens the synthetic sample.
 
-The sample projects in VRScheduler, VRPlanner and VRTAR are synthetic. They do not describe any real project, client or contractor.
+The sample projects in VRScheduler, VRPlanner, VRTAR and VRCMMS are synthetic. They do not describe any real project, client or contractor.
 
 ## About this repository
 
