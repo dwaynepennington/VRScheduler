@@ -15,21 +15,22 @@ Open it at https://dwaynepennington.github.io/VRScheduler/
 - Work the grid: sort by any column, choose columns, roll up by WBS, zoom from 50 to 200 %, and keep the timescale in view while scrolling.
 - Export to P6 XER, Microsoft Project XML or CSV.
 
-## VRPlanner, VRTAR and VRCMMS
+## VREstimator, VRPlanner, VRTAR and VRCMMS
 
-Three tools come with VRScheduler. The bar under the top bar switches between the four.
+Four tools come with VRScheduler. The bar under the top bar switches between the five.
 
+- **VREstimator** — industrial takeoff and EPC estimating on the VissRadEST engine. On-screen takeoff on PDF drawings (area, linear and count, per-sheet scale, symbol auto-count), automated takeoff from DXF CAD files, assemblies that price many items from one measurement, crew mixes, a cost breakdown by area and discipline, what-if cases and a proposal with AACE class and QA gate. Its Schedule tab turns the estimate into areas, discipline packages and resource-loaded activities; Send to Schedule Editor adds them to the schedule open in VRScheduler, under the WBS node you pick, or opens them as a new schedule, and Export P6 XER writes a file for Primavera P6. New window (or Ctrl-click a tab) puts a tab on another screen, and windows on the same estimate stay in step. It opens on a choice of a blank estimate or the synthetic demo estimate. Open it at https://dwaynepennington.github.io/VRScheduler/estimator/index.html
 - **VRPlanner** — capital work planning. Step out each work item from a module and get its work steps, crew sizes, craft hours, equipment and materials; set the logic between work items on the project's working calendar; see the manpower and equipment loading. Send to Schedule Editor adds the plan to the schedule open in VRScheduler, under the WBS node you pick, or opens it as a new schedule. Load files: P6 XER, MPX, Excel and CSV. Open it at https://dwaynepennington.github.io/VRScheduler/planner/index.html
 - **VRTAR** — turnaround estimating. Answer a short wizard for each scope item and get the tasks, crew hours, equipment, logic and material; the worklist rolls into an event fragnet, a manpower histogram and a material take-off, with Excel, P6 XER, MPX and SAP PM exports. The Load tab sends the event to the Schedule Editor, one activity per scope item. Open it at https://dwaynepennington.github.io/VRScheduler/tar/index.html
 - **VRCMMS** — maintenance management. Asset register with QR labels, work requests and work orders, preventive maintenance by time or meter, job plans, spares and reliability. Planning & backlog sends the open work orders to the Schedule Editor, or into a VRTAR turnaround event; a VRTAR scope item opens its asset or work order in VRCMMS. Start your own site on the Dashboard begins with empty registers. Open it at https://dwaynepennington.github.io/VRScheduler/cmms/index.html
 
-All three keep their records in this browser. File > Save file downloads a copy, File > Open file puts one back, and File > Start over reopens the synthetic sample.
+All four keep their records in this browser. File > Save file downloads a copy, File > Open file puts one back, and File > Start over reopens the synthetic sample.
 
 ## Your data
 
 Files are read in this browser only; nothing is uploaded. A loaded schedule and the editor's plan are kept in this browser's storage so they reopen after a reload. "Start over" removes them and reopens the synthetic sample.
 
-The sample projects in VRScheduler, VRPlanner, VRTAR and VRCMMS are synthetic. They do not describe any real project, client or contractor.
+The sample projects in VRScheduler, VREstimator, VRPlanner, VRTAR and VRCMMS, and the man-hour library values in VREstimator, are synthetic. They do not describe any real project, client or contractor.
 
 ## About this repository
 
