@@ -14,6 +14,7 @@ Open it at https://dwaynepennington.github.io/VRScheduler/
 - Try what-if scenarios: save copies of the plan, change them, and compare each with the plan of record.
 - Work the grid: sort by any column, choose columns, roll up by WBS, zoom from 50 to 200 %, and keep the timescale in view while scrolling.
 - Export to P6 XER, Microsoft Project XML or CSV.
+- Step progress by rules of credit: Steps… measures an activity by weighted steps (structural steel: expedite and stage, erect, bolt up, torque, inspect, turnover) or by quantity installed, and its % complete is the weighted sum that feeds earned value and the S-curve. Twenty-three editable default rules cover civil, steel, piping, mechanical equipment, tanks, electrical, instrumentation, insulation, painting and turnaround work; steps export to P6 as activity steps.
 
 ## The tools that come with VRScheduler
 
