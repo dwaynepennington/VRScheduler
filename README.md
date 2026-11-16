@@ -15,6 +15,23 @@ Open it at https://dwaynepennington.github.io/VRScheduler/
 - Work the grid: sort by any column, choose columns, roll up by WBS, zoom from 50 to 200 %, and keep the timescale in view while scrolling.
 - Export to P6 XER, Microsoft Project XML or CSV.
 - Step progress by rules of credit: Steps… measures an activity by weighted steps (structural steel: expedite and stage, erect, bolt up, torque, inspect, turnover) or by quantity installed, and its % complete is the weighted sum that feeds earned value and the S-curve. Twenty-three editable default rules cover civil, steel, piping, mechanical equipment, tanks, electrical, instrumentation, insulation, painting and turnaround work; steps export to P6 as activity steps.
+- Track procurement deliveries with VRPT Procurement: load the supplier logistics tracker each week alongside the P6 schedule, and see every delivery line against its required-on-site (ROS) date and its P6 date.
+
+## Weekly ETA, ROS and P6 view
+
+VRPT Procurement shows each delivery line week by week, in three side-by-side comparisons:
+
+- **ETA vs ROS** (ROS − ETA): will the material arrive before it is needed on site?
+- **ETA vs P6** (P6 date − ETA): does the forecast arrival support the schedule?
+- **ROS vs P6** (P6 date − ROS): does the ROS date match the schedule's need date?
+
+Plus means days ahead and minus means days behind. Each column is one week (Monday to Sunday) and uses the newest tracker report in that week. A dashed box marks a week with no report, and faded cells are lines that have arrived. Under the heatmap are bars for the latest week and a weekly trend of open lines behind in each comparison.
+
+The supplier filters and presets apply to the view. The Dashboard puts the weekly heatmap at the top and exports to PNG, PDF and Excel, and the Excel file includes Weekly Data and Weekly Trend sheets for Power BI. The PDF report contains the dashboard, the weekly heatmaps, the latest-week bars, the weekly trend, every delivery line and a supplier summary. It can also be saved as a SharePoint or Teams page.
+
+[Open the weekly view with the synthetic sample](https://dwaynepennington.github.io/VRScheduler/#vrpt-weekly)
+
+![VRPT Procurement weekly heatmap: ETA vs ROS, ETA vs P6 and ROS vs P6 for each delivery line, one column per week (synthetic sample)](docs/vrpt-weekly.png)
 
 ## The tools that come with VRScheduler
 
